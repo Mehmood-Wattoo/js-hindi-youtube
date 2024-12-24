@@ -27,6 +27,16 @@ function addTwoNumbers(number1,number2){ // parameters enclose in ()
 
 const result = addTwoNumbers(3,5)
 
-console.log("result:", result);
+// console.log("result:", result);
 
+function loginUserMessage(username){
+    // if(username === undefined){
+    if(!username){ // this syntax means same as above
+        console.log(`please enter a username`);
+        return
+    }
+    return `${username} just logged in`
+}
 
+// console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage())
