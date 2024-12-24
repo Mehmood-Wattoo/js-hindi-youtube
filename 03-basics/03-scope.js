@@ -9,8 +9,9 @@ const b = 20 // here b will not execute due to its block scope
 }
 
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
 
 // global scope in browser and global scope in node are different 
+
