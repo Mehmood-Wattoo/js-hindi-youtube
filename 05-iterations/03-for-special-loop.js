@@ -33,7 +33,7 @@ const myObj = {
     game2: 'gta'
 }
 
-for (const key, value of myObj) {
+for (const [key, value] of myObj) {
     console.log(key, ":-", value);
     // here object is not iteratable via for of loop
     
