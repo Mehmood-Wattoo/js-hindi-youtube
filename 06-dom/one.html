@@ -5,10 +5,20 @@
 
     <title>Dom Learning</title>
 </head>
-<body>
+<style>
+    .bg-black{
+        background-color: #212121;
+        color: #878787;
+    }
+</style>
+<body class="bg-black">
     <!-- DOM stands for Document Object Model -->
-    <div class="bg-black">
-        <h1 class="heading">DOM learning on chai aur code</h1>
+    <div>
+        <h1 id="title" class="heading">DOM learning on chai aur code <span style="display: none;">text test</span></h1>
+        <!-- innerText only show the unhide text, while textContent show both hide and unhide text -->
+         <h2>Lorem ipsum dolor sit.</h2>
+         <h2>Lorem ipsum dolor sit.</h2>
+         <h2>Lorem ipsum dolor sit.</h2>
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
 </body>
