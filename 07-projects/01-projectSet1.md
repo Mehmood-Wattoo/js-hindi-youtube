@@ -65,3 +65,9 @@ form.addEventListener('submit', function (e) {
 });
 
 ```
+
+## project 3 (2:31:14)
+
+```javascript
+
+```
